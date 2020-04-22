@@ -1,0 +1,9 @@
+version: '2'
+
+
+services:
+      ubuntu-full:
+        image: ubuntu-full
+        volumes:
+        - ~/Documents/Github/docker-player/ubuntu/workspace:/root/workspace
+
