@@ -1,1 +1,0 @@
-docker run -it --rm -v `pwd`/workspace:/root/workspace -p 0.0.0.0:8888:8888 -p 0.0.0.0:8889:22 -p 0.0.0.0:8890:8890 --name ubuntu-full ubuntu-full

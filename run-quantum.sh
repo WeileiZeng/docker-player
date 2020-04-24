@@ -1,0 +1,1 @@
+docker run --rm -it -p 0.0.0.0:8888:8888 --name quantum -d fermilabqc/quantum-full-and-qsharp
