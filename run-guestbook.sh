@@ -1,14 +1,4 @@
-sudo docker run \
-  --volume=/:/rootfs:ro \
-  --volume=/var/run:/var/run:ro \
-  --volume=/sys:/sys:ro \
-  --volume=/var/lib/docker/:/var/lib/docker:ro \
-  --volume=/dev/disk/:/dev/disk:ro \
-  --publish=8090:8080 \
-  --detach=true \
-  --name=cadvisor \
-  google/cadvisor:latest
-
+docker run --rm --name guestbook google/guestbook-python-redis:latest 
 
 
 #docker run -it --rm -v `pwd`/workspace:/root/workspace --name ubuntu ubuntu 
