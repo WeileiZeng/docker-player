@@ -1,3 +1,5 @@
+docker run -it --rm --name focal buildpack-deps:focal
+
 #docker run -it --rm -v `pwd`/workspace:/root/workspace --name ubuntu ubuntu:xenial
 
 docker run -it --rm -v `pwd`/workspace:/root/workspace --name ubuntu-latest ubuntu:latest
