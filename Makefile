@@ -1,6 +1,9 @@
 #docker run -it --rm -v `pwd`/workspace:/root/workspace --name ubuntu ubuntu:xenial
 
-docker run -it --rm -v `pwd`/workspace:/root/workspace --name ubuntu-latest ubuntu:latest
+ubuntu:
+	docker run -it --rm -v `pwd`/workspace:/root/workspace --name ubuntu-latest ubuntu:latest
+raspbian:
+	sudo docker run -it --rm --name raspbian raspbian/desktop:latest
 
 #docker run -it --rm -w '/root' -v `pwd`:/root --name lapacke2 dbjochym/gfortran_static_lapack_blas
 # docker run -it --rm -w '/root' -v `pwd`:/root --name lapacke lapacke
